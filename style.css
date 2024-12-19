@@ -1,0 +1,41 @@
+html{
+    font-family: monospace;
+}
+body{
+    background: black;
+    color: blueviolet;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480;
+    margin: 0 auto;
+}
+input{
+    margin: 1rem;
+    padding: 10px;
+    border:  1px solid plum;
+    border-radius: 5px;
+    color: plum;
+    background: black;
+
+}
+.button:hover{
+    cursor: pointer;
+}
+.guessSubmit:hover{
+    box-shadow: 3px 3px lightpink;
+    cursor: pointer;
+}
+.guessSubmit:active{
+    background: palevioletred;
+    cursor: pointer;
+}
+.form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lastResult{
+    color: white;
+    padding: 3px;
+}
